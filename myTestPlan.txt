@@ -1,0 +1,161 @@
+// Sample input file for Lab #3
+// CSE1325 Summer 2013
+// Created by Dr. Tiernan
+//
+// Your program should ignore all lines that 
+// start with two slashes.  These are comments.
+// There is a blank line at the end of the data.
+//
+// The items in the file can be in any order following the
+// descriptions given below.  There will be library items,
+// patrons, and employees in this file of data.
+//
+// Each library item will have the following pieces of data.
+// Each item will be headed with the keyword "Item:" and the
+// item data will follow immediately with one piece of 
+// data per line.
+// Item:
+//    double ISBN;
+//    String title;
+//    ItemType type;
+//    String publisher;
+//    int pageInfoHowMany;
+//    double price;
+//    int publicationYear;
+//    boolean checkedOut;
+//    int patronID;
+//    
+//
+Item:
+9025678474.0
+"C programming"
+TEXTBOOK
+"Addison-McGraw"
+442
+100.95
+2012
+false
+0
+Item:
+0960586605.0
+"To Kill A Mockingbird"
+NOVEL
+"HarperCollinsPublishers"
+290
+16.99
+1964
+true
+741962
+//
+// Each patron of the library will have the following 
+// pieces of  headed by the keyword "Patron:"
+// Patron:
+//       String firstName;
+//       String lastName;
+//       String streetAddress;
+//       String city;
+//       String state;
+//       int zipCode;
+//       Gender genderPerson; - MALE, FEMALE, NODATA
+//       int patronID;
+//       int day;  for LibraryDate lastCheckOut;
+//       int month;
+//       int year;
+//
+//
+Patron:
+Shawn
+Zahid Ali
+123 Sesame St
+Arlington
+TX
+10987
+MALE
+100021
+1
+5
+2000
+//
+Patron:
+Rashad
+Haidar 
+876 Canaveral St. # 324
+Mansfield
+TX
+75643
+MALE
+675233
+30
+10
+2003
+//
+// Each employee of the library will have the following 
+// pieces of  headed by the keyword "Employee:"
+// Employee:
+//    String firstName;
+//    String lastName;
+//    String streetAddress;
+//    String city;
+//    String state;
+//    int zipCode;
+//    Gender genderPerson; - MALE, FEMALE, NODATA
+//    int employeeID;
+//    EmployeePayType employeePay; HOURLY, SALARY, CONTRACT
+//    double employeePayAmt;
+//    Specialization employeeSpeciality; -
+//      REFERENCE, SPECIAL_COLLECTIONS, RESEARCH, 
+//      DESK, MEDIA, GENERAL, OTHER
+//    boolean clockedIn;
+//    double hoursWorkedInMo;
+//
+//
+Employee:
+Noor
+Masoomi
+4417 FM150 #306
+Fort Worth
+TX
+79001
+FEMALE
+765
+SALARY
+6400.00
+REFERENCE
+false
+37
+Employee:
+Obiadullah 
+Khawari 
+876 Sout Center St.
+Arlington
+TX
+76020
+MALE
+300
+HOURLY
+20.00
+GENERAL
+false
+18
+Patron:
+Shiekh Minshawi
+Kakar 
+914 Yates St.
+Nashville
+TN
+37211
+MALE
+882211
+18
+3
+2013
+Item:
+0316017923
+"Java How to program"
+TEXTBOOK
+"Pierson"
+1285
+129.9
+2010
+false
+0
